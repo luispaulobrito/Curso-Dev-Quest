@@ -1,0 +1,21 @@
+/*Todas as margens
+p{
+    margin: 30px;
+}
+
+Todas as margens
+p{
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+topo e baixo =30 direita e esquerda=15
+p{
+    margin: 30px, 15px; 
+}
+*/
+p{
+    margin: 30px 10px 30px 10px; /*topo, direita, baixo, esquerda*/
+}
