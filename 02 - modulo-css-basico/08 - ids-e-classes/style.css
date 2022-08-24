@@ -1,0 +1,12 @@
+#descricao{
+    background-color: orange;
+}
+
+.descricao-produto{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.promocao{
+    border: solid 5px green;
+}
