@@ -1,0 +1,19 @@
+.tabela-moda, .tabela-casa{
+    color: white;;
+}
+
+.tabela-moda th{
+    background-color: #BB86FC;
+}
+
+.tabela-moda tr{
+    background-color: #424250;
+}
+
+.tabela-casa th{
+    background-color: #00C4B4;
+}
+
+.tabela-casa tr{
+    background-color: #424250;
+}
