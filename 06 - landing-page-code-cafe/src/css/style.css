@@ -1,6 +1,10 @@
+html{
+    font-size: 62.5%;
+}
 body{
     width: 1440px;
     margin: 0 auto;
+    font-size: 1.6rem;
 }
 .cabecalho{
     padding: 30px 15px;
