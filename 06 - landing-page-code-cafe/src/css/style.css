@@ -2,7 +2,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
     font-size: 1.6rem;
 }
