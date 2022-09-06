@@ -4,7 +4,7 @@
 
 https://landing-page-code-cafe.netlify.app/
 
-Landing Page Code Café é uma aplicação web e mobile construída durante o Bootcamp Dev Quest.
+Landing Page Code Café é uma aplicação web e mobile construída durante o Bootcamp Dev Quest que simula a landing page de uma cafeteria.
 
 A aplicação consiste no desenvolvimento de uma landing page para uma cafeteria. Nesse projeto foi aprendido: como estruturar um layout utilizando HTML e CSS e como aplicar responsividade.
 
