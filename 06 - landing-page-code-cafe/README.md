@@ -12,7 +12,7 @@ A aplicação consiste no desenvolvimento de uma landing page para uma cafeteria
 ![Mobile 1](https://github.com/luispaulobrito/assets/blob/main/1662485723964.gif)
 
 ## Layout web
-![Web 1](https://github.com/luispaulobrito/assets/blob/main/1662485723964.png)
+![Web 1](https://github.com/luispaulobrito/assets/blob/main/cel.gif)
 
 # Tecnologias utilizadas
 ## Front end
