@@ -1,0 +1,23 @@
+p:first-child{
+    color: aquamarine;
+    background-color: black;
+}
+p:last-child{
+    color: white;
+    background-color: purple;
+}
+p:not(.padrao){
+    background-color: yellow;
+}
+p:nth-child(odd){
+    background-color: brown;
+}
+p:nth-child(even){
+    background-color: burlywood;
+}
+li:nth-last-child(1){
+    background-color: blueviolet;
+}
+p:only-child{
+    background-color: cadetblue;
+}
