@@ -1,0 +1,15 @@
+p::first-line{
+    color: coral;
+}
+
+li::marker{
+    color: red;
+    font-size: 23px;
+}
+
+h2::before{
+    content: url(logo.jpg);
+}
+h2::after{
+    content: " texto que aparece depois";
+}
