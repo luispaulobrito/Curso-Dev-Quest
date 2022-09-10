@@ -22,3 +22,21 @@ h1{
 .titulo.vermelho{
     color: red;
 }
+.pai .filho{
+    color: blueviolet;
+}
+
+p, span{
+    font-size: 25px;
+}
+
+div > p {
+    background-color: aquamarine;
+}
+
+div + p {
+    background-color: aquamarine;
+}
+a[target=_blank]{
+    color: blueviolet;
+}
