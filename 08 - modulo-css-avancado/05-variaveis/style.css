@@ -1,0 +1,15 @@
+:root{
+    --cor-padrao: red;
+    --tamanho-de-texto-padrao: 25px;
+}
+h3, p, span{
+    color: var(--cor-padrao, red);
+    font-size: var(--tamanho-de-texto-padrao, 20px);
+}
+h2{
+    --cor-de-fundo: red;
+
+    color: white;
+    font-size: var(--tamanho-de-texto-padrao);
+    background-color: var(--cor-de-fundo);
+} 
