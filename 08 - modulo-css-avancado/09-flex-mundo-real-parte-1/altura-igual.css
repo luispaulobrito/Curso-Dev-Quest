@@ -1,0 +1,21 @@
+.flex{
+    display: flex;
+    width: 960px;
+    max-width: 100%;
+    flex-wrap: wrap; /* como tem muitos elementos um ao lado do outro, o wrap vai permitir que haja uma quebra */
+}
+
+.flex img{
+    max-width: 100%;
+}
+.coluna{
+    display: flex;/* display flex coloca tudo em linha, o flex direction pode alterar pra coluna */
+    flex-direction: column;
+    /* flex: 1; */
+    margin: 1em;
+    width: 250px;
+}   
+.botao{
+    align-self: flex-start; /* sempre começa do lado esquerdo da coluna */
+    margin-top: auto; /* faz com que sempre fique no final  */
+}
