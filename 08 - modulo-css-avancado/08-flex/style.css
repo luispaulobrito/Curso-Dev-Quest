@@ -4,3 +4,6 @@
 .flex-1{
     flex: 1;
 }
+.item.item3{
+    order: 1;
+}
