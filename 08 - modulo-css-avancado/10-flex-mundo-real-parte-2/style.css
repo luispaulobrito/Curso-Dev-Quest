@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between; /* space between vai fazer com que o logo fique na direita e o menu na esquerda, colocando um espaço entre eles */
+    align-items: center; /* pra alinhar verticalmente o logo como o menu usa-se o align-items */
+    flex-wrap: wrap; /* wrap vai quebrar o menu pra baixo do logo quando a tela for pequena */
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 15px;
+}
+
+/* nas medias coloco o logo e o menu em block pra ficar como coluna */
+@media(max-width: 425px){
+    .logo{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    nav{
+        width: 100%;
+        text-align: center;
+    }
+    .menu{
+        display: block;
+        margin-top: 30px;
+    }
+    .menu li{
+        margin-left: 0;
+    }
+    .menu a{
+        padding: 20px;
+        display: block;
+    }
+}
