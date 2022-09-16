@@ -41,7 +41,7 @@
     padding: 11px 7px;
 }
 
-@media(max-width: 600px){
+@media(max-width: 730px){
     .header{
         justify-content: center;
     }
@@ -51,7 +51,11 @@
         text-align: center;
         justify-content: center;
     }
-
+    .menu ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .menu ul{
         display: block;
     }
@@ -67,6 +71,9 @@
     .menu .botao{
         margin-top: 65px;
         font-size: 18px;
+    }
+    .menu li{
+        margin-left: 0px;
     }
 
 }
