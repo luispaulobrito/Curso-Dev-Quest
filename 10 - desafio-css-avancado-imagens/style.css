@@ -1,0 +1,19 @@
+.flex{
+    margin-top: 128px;
+    display: flex;
+    flex-direction: row;
+    width: 335px;
+    max-width: 100%;
+}
+.flex .img{
+    max-width: 100%;
+}
+
+@media (max-width:768px) {
+    .container{
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }           
+}
