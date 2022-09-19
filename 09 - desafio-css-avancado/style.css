@@ -25,23 +25,26 @@
     font-size: 15px;
     color: #000000;
 }
-.menu .botao,
-.menu .sobre{
+.menu .botao{
     font-size: 15px;
     color: #FFFFFF;
     background-color: #5BC241;
-}
-.menu .botao{
     border: none;
     border-radius: 10px;
     width: 127px;
     height: 39px;
 }
-.menu .sobre{
+.menu .botao:hover{
+    font-weight: bold;
+}
+.menu li a:hover{
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #5BC241;
     padding: 11px 7px;
 }
 
-@media(max-width: 730px){
+@media(max-width: 750px){
     .header{
         justify-content: center;
     }
@@ -64,10 +67,6 @@
     .menu .sobre{
         font-size: 40px;
     }
-    .menu .sobre{
-        width: 233px;
-        height: 81px;
-    }
     .menu .botao{
         margin-top: 65px;
         font-size: 18px;
@@ -75,5 +74,12 @@
     .menu li{
         margin-left: 0px;
     }
-
+    .menu li a:hover{
+        font-size: 40px;
+        width: 233px;
+        height: 81px;
+        color: #FFFFFF;
+        background-color: #5BC241;
+        padding: 11px 7px;
+    }
 }

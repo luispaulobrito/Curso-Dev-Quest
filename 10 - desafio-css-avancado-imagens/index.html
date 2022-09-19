@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilos.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,24 +15,37 @@
     <title>Lista de Imagens</title>
 </head>
 <body>
-    <div class="flex">
-        <div class="coluna">
-            <h2>Boat at Sea</h2>
-            <h3>Michelangelo</h3>
-        </div>
-        <div class="coluna2">
-            <h2>Rome</h2>
-            <h3>Michelangelo</h2>
-        </div>
-        
-        <div class="coluna3">
-            <h2>Sand and Sea</h2>
-            <h3>Da Vinci</h3>
-        </div>
-        <div class="coluna4">
-            <h2>Starry Night</h2>
-            <h3>Vincent Van Gogh</h3>
-        </div>
-    </div>
+    <main>
+        <section class="pinturas">
+            <div class="pintura">
+                <img src="./imagens/rome.png" alt="pintura rome">
+                <div class="informacoes">
+                    <h2>Rome</h2>
+                    <h3>Michelangelo</h2>
+                </div>
+            </div>
+            <div class="pintura">
+                <img src="./imagens/boat.png" alt="pintura boat">
+                <div class="informacoes">
+                    <h2>Boat at Sea</h2>
+                    <h3>Michelangelo</h3>
+                </div>
+            </div>
+            <div class="pintura">
+                <img src="./imagens/sand-and-sea.png" alt="pintura sand">
+                <div class="informacoes">
+                    <h2>Sand and Sea</h2>
+                    <h3>Da Vinci</h3>
+                </div>
+            </div>
+            <div class="pintura">
+                <img src="./imagens/starry-night.png" alt="pintura starry night">
+                <div class="informacoes">
+                    <h2>Starry Night</h2>
+                    <h3>Vincent Van Gogh</h3>
+                </div>
+            </div>
+        </section>    
+    </main>
 </body>
 </html>
