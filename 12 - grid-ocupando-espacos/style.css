@@ -1,0 +1,29 @@
+.verde-claro{
+    background-color: aquamarine;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-column: 1 / span 2; /* começa na coluna 1 e o span diz quantas colunas serão no total */
+    grid-row: 1 / 3; /* começa na linha um e vai até a 2 */
+}
+.azul{
+    background-color: cornflowerblue;
+}
+.rosa{
+    background-color: hotpink;
+}
+.laranja-escuro{
+    background-color: orangered;
+}
+.verde-forte{
+    background-color: green;
+}
+.marron{
+    background-color: burlywood;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 15px;
+}
