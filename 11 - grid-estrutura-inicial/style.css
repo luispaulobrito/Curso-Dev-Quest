@@ -6,6 +6,7 @@
 }
 .container{
     display: grid;
-    grid-template-columns: auto auto 120px;
-    grid-template-rows: 100px 50px;
+    grid-template: repeat(2, 150px) / repeat(3, auto);
+    grid-gap: 10px 5px; /*coloca espaço entre as linhas e colunas */
+    /* grid-column-gap: 10px; coloca espaço entre as colunas */
 }
