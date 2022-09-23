@@ -81,7 +81,63 @@ body{
 /* ABOUT */
 .about{
     grid-area: about;
-    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
+    max-width: var(--max-width-size);
+    margin: 0 auto;
+}
+
+.about .item{
+    padding: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.about .item h3{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.about .item p{
+    font-size: 1.8rem;
+    margin: 30px 0;
+    font-weight: 400;
+}
+
+.about .item .btn-know-more{
+    font-size: 1.6rem;
+    align-self: flex-start;
+}
+
+.about .item .btn-know-more:hover{
+    font-weight: 700;
+}
+.about image{
+    width: 100%;
+    height: 100%;
+}
+
+.about .image.right{
+    background-size: cover;
+    background: url('../images/bridge.jpg') center center no-repeat;
+}
+
+.about .image.left{
+    background-size: cover;
+    background: url('../images/sky.jpg') center center no-repeat;
+}
+
+@media (max-width:425px) {
+    .about .item{
+        text-align: center;
+    }
+    .about{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
 }
 
 /* SERVICES */
