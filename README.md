@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fhotmart.com%2Fpt-br%2Fmarketplace%2Fprodutos%2Fdevquest-dev-em-dobro%2FI56659685O&psig=AOvVaw0dcVhifCzC9pCJh2ZBEW0H&ust=1664135389609000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNDdldGZrvoCFQAAAAAdAAAAABAO" width="175px"> 
+<img src="https://github.com/luispaulobrito/Curso-Dev-Quest/blob/main/assets/devquestlogo.jpg" width="175px"> 
 </div>
 <h1 align="center">Bootcamp Dev Quest</h1>
 <h4 align="center">O Bootcamp Dev Quest é um programa de estudos em desenvolvimento e tecnologias Back-End. O programa apresenta cursos, desafios práticos e mentorias em tecnologias essenciais para  Back-End.</h4>
