@@ -15,20 +15,10 @@
 
 </h3>
 
-## Módulos Bootcamp
-- [Introdução - Lógica de Programação](https://github.com/luispaulobrito/Santander_FullStack_Developer/tree/main/Introdu%C3%A7%C3%A3o%20-%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o)
-- [TypeScript](https://github.com/luispaulobrito/Santander_FullStack_Developer/tree/main/TypeScript)
-- [Angular](https://github.com/luispaulobrito/Santander_FullStack_Developer/tree/main/Angular-DIO)
-- [Java](https://github.com/luispaulobrito/Santander_FullStack_Developer/tree/main/JAVA)
-- [Spring Framework](https://github.com/luispaulobrito/Santander_FullStack_Developer/tree/main/Spring%20Framework)
-- [Materiais de Apoio](https://github.com/luispaulobrito/Santander_FullStack_Developer/tree/main/Materiais%20de%20Apoio)
-
 ## Projetos / Desafios de Código
 
-- [Página Inicial do Instagram](https://github.com/luispaulobrito/instagram-clone-dio)
-- [Página Inicial da Netflix](https://github.com/luispaulobrito/netflix-clone)
-- [Desafios de Código](https://github.com/luispaulobrito/Santander_FullStack_Developer/tree/main/Desafios%20de%20C%C3%B3digo)
-- [Course Manager](https://github.com/luispaulobrito/Santander_FullStack_Developer/tree/main/Angular-DIO/course-manager-master)
-- [E-commerce](https://github.com/luispaulobrito/Santander_FullStack_Developer/tree/main/Angular-DIO/E-commerce/bookstore-frontend)
-- [Banco](https://github.com/luispaulobrito/Santander_FullStack_Developer/tree/main/JAVA/Projeto%20Banco)
-- [Padrões de Projeto Spring](https://github.com/luispaulobrito/Santander_FullStack_Developer/tree/main/Spring%20Framework/lab-padroes-projeto-spring-main)
+- [Desafio HTML e CSS básico](https://github.com/luispaulobrito/Curso-Dev-Quest/tree/main/03%20-%20desafio-html-css-basico)
+- [Landing Page Code Café](https://github.com/luispaulobrito/Curso-Dev-Quest/tree/main/06%20-%20landing-page-code-cafe)
+- [Desafio CSS Avançado](https://github.com/luispaulobrito/Curso-Dev-Quest/tree/main/09%20-%20desafio-css-avancado)
+- [Desafio CSS Avançado Imagens](https://github.com/luispaulobrito/Curso-Dev-Quest/tree/main/10%20-%20desafio-css-avancado-imagens)
+- [Agência Landing Page](https://github.com/luispaulobrito/Curso-Dev-Quest/tree/main/16%20-%20landing-page-com-grid)
