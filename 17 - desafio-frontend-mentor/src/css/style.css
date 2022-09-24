@@ -1,0 +1,29 @@
+body{
+    background: url(../../images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+}   
+
+.header{
+    margin: 40px;
+}
+
+.header img{
+    width: 170px;
+}
+
+.hero{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .content{
+    flex-direction: column;
+    padding: 40px;
+    color: white;
+}
+
+.hero h1{
+    font-family: 'Poppins', sans-serif;
+}
