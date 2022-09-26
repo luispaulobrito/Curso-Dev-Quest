@@ -15,31 +15,31 @@ body{
     width: 170px;
 }
 
-.hero{
+.main{
     margin: 40px;
     display: flex;
 }
 
-.hero .content{
+.main .content{
     flex-direction: column;
     padding: 40px;
     color: #fff;
     position: relative;
 }
 
-.hero h1{
+.main h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 4rem;
 }
 
-.hero p{
+.main p{
     padding-top: 20px;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
 }
 
-.hero .content .btn-register{
+.main .content .btn-register{
     position: absolute;
     text-align: center;
     padding-top: 5px;
@@ -53,7 +53,7 @@ body{
     width: 150px;  
     height: 40px;
 }
-.hero .content .btn-register:hover{
+.main .content .btn-register:hover{
     color: #fff;
     background-color: hsl(300, 69%, 71%); 
 }
@@ -88,19 +88,19 @@ body{
 }
 
 @media (max-width:768px) {
-    .hero{
+    .main{
         display: flex;
         flex-direction: column;
     }
-    .hero .content{
+    .main .content{
         justify-content: center;
         text-align: center;
         position: relative;
     }
-    .hero h1{
+    .main h1{
         font-size: 2.4em;
     }
-    .hero .content .btn-register{
+    .main .content .btn-register{
         padding-top: 5px;
         margin-left: -85px;
         font-size: 1.4rem;
