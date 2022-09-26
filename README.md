@@ -22,3 +22,4 @@
 - [Desafio CSS Avançado](https://github.com/luispaulobrito/Curso-Dev-Quest/tree/main/09%20-%20desafio-css-avancado)
 - [Desafio CSS Avançado Imagens](https://github.com/luispaulobrito/Curso-Dev-Quest/tree/main/10%20-%20desafio-css-avancado-imagens)
 - [Agência Landing Page](https://github.com/luispaulobrito/Curso-Dev-Quest/tree/main/16%20-%20landing-page-com-grid)
+- [Desafio Frontend Mentor](https://github.com/luispaulobrito/Curso-Dev-Quest/tree/main/17%20-%20desafio-frontend-mentor)
