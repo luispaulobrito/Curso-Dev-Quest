@@ -1,1 +1,4 @@
-window.prompt('Digite sua idade')
+let idade = prompt('Digite sua idade')
+
+console.log(idade)
+
