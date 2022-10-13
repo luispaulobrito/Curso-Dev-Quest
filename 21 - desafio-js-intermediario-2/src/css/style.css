@@ -1,0 +1,21 @@
+.main{
+    position: relative;
+    background-color: #FCFCFC;
+    max-width: 655px;
+    min-height: 347px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.main .faq{
+    position: absolute;
+    left: 35%;
+}
+
+.main .ilustracao{
+    position: absolute;
+    left: -13%;
+}
