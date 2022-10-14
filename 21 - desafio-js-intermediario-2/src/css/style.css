@@ -1,21 +1,42 @@
-.main{
-    position: relative;
-    background-color: #FCFCFC;
-    max-width: 655px;
-    min-height: 347px;
+main{
     display: flex;
     align-items: center;
-    margin: auto;
-    margin-top: 50px;
-    border-radius: 20px;
+    justify-content: center;
+    min-height: 100vh;
 }
 
-.main .faq{
-    position: absolute;
-    left: 35%;
+.acordeon{
+    width: 655px;
+    min-height: 347px;
+    box-shadow: 0 27px 49px -25px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
 }
 
-.main .ilustracao{
+.acordeon .ilustracao{
     position: absolute;
-    left: -13%;
+    left: -90px;
+}
+
+.acordeon .conteudo{
+    width: 90%;
+    padding-left: 225px;
+}
+
+.acordeon .conteudo h1{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.acordeon .items .item{
+    cursor: pointer;
+    background-image: url(../imagens/icone-seta-fechada.png);
+    background-repeat: no-repeat;
+    background-position: top 8px right 0;
+    background-size: 12px;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
 }
