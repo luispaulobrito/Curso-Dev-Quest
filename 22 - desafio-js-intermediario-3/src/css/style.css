@@ -1,0 +1,72 @@
+html{
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.entre-em-contato{
+    background-image: url(../images/bg-repeat.jpg);
+    max-width: 800px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    padding: 12px 50px;
+}
+
+.entre-em-contato .texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    padding-right: 60px;
+}
+
+.entre-em-contato .texto h1{
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 11px;
+}
+.entre-em-contato .texto p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.entre-em-contato .formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 20px;
+    width: 778px;
+}
+
+.entre-em-contato .formulario .input{
+    border: solid 1px #000000;
+    border-radius: 3px;
+    height: 36px;
+}
+.entre-em-contato .formulario #mensagem{
+    height: 100px;
+}
+.entre-em-contato .formulario #enviar{
+    background-color: #3CCC87;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+}    
+.entre-em-contato .formulario .input::placeholder{
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #A8A8A8;
+}
+.entre-em-contato .formulario #mensagem::placeholder{
+    position: absolute;
+    top: 0;
+    padding: 7px;
+}
+.entre-em-contato .formulario p{
+    font-size: 15px;
+    font-weight: 400;
+}
