@@ -43,8 +43,6 @@ function checkInputs() {
 
 function errorValidation(input) {
     const formControl = input.parentElement;
-    // const small = formControl.querySelector('small');
-    // small.innerText = message
     formControl.className="form-control error"
 }
 

@@ -71,8 +71,16 @@ html{
     font-weight: 400;
 }
 
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+
 .form-control small{
     visibility: hidden;
+    color: #F52E2E;
+    font-size: 9px;
+    font-weight: 400;
 }
 
 .form-control.success .input{
