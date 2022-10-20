@@ -7,7 +7,7 @@ html{
     background-image: url(../images/bg-repeat.jpg);
     max-width: 800px;
     height: 400px;
-    margin: auto;
+    margin: 60px auto;
     display: flex;
     padding: 12px 50px;
 }
