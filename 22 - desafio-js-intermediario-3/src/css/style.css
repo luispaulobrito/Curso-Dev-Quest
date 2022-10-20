@@ -70,3 +70,19 @@ html{
     font-size: 15px;
     font-weight: 400;
 }
+
+.form-control small{
+    visibility: hidden;
+}
+
+.form-control.success .input{
+    border: 2px solid #3dd878;
+    
+}
+
+.form-control.error .input{
+    border: 2px solid #F52E2E;   
+}
+.form-control.error small{
+    visibility: visible;
+}

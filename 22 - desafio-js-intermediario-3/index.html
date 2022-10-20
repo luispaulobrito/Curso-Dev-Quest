@@ -20,11 +20,28 @@
             <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
         </div>
 
-        <form class="formulario">
-            <input type="text" name="nome" class="input" id="nome" placeholder="Nome completo *">
-            <input type="email" name="email" class="input" id="email" placeholder="Email *">
-            <input type="tel" name="telefone" class="input" id="telefone" placeholder="Telefone *">
-            <textarea name="mensagem" id="mensagem" class="input" placeholder="Mensagem *"></textarea>
+        <form class="formulario" id="formulario">
+            <div class="form-control">
+                <input type="text" name="nome" class="input" id="nome" placeholder="Nome completo *">
+                <small>campo obrigatório</small>           
+            </div>
+            
+            <div class="form-control">
+                <input type="email" name="email" class="input" id="email" placeholder="Email *">
+                <small>campo obrigatório</small>           
+            </div>
+            
+            
+            <div class="form-control">
+                <input type="tel" name="telefone" class="input" id="telefone" placeholder="Telefone *">
+                <small>campo obrigatório</small> 
+            </div>    
+                
+            <div class="form-control">
+                <textarea name="mensagem" id="mensagem" class="input" placeholder="Mensagem *"></textarea>
+                <small>campo obrigatório</small> 
+            </div>    
+            
             <p>*campos obrigatórios</p>
             <input class="input" type="submit" name="enviar" value="Enviar" id="enviar">
         </form>
