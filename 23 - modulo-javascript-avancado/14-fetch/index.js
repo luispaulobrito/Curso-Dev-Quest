@@ -1,3 +1,7 @@
+document.getElementById('tirar-carta').addEventListener('click', () =>{
+    tirarUmaCartaAleatoriaDoBaralho()
+})
+
 async function criarBaralhoEmbaralhado() {
     const url = "https://www.deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1";
     const resposta = await fetch(url)
@@ -13,7 +17,8 @@ async function tirarUmaCarta(deck_id) {
 async function tirarUmaCartaAleatoriaDoBaralho() {
     const baralho = await criarBaralhoEmbaralhado();
     const carta = await tirarUmaCarta(baralho.deck_id);
-    console.log(carta)
+    const imagemCarta = carta.cards[0].image
+    document.getElementById('carta').src = imagemCarta
 }
 
 tirarUmaCartaAleatoriaDoBaralho()
