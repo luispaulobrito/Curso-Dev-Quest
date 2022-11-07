@@ -41,3 +41,43 @@ it ('deve cobrar valor de frete quando o valor dos produtos for igual a 500', ()
 
     expect(resultado).toBe(600)
 })
+
+/* CASO  OS ESTADOS DE ENTREGA SEJAM RS OU SC , DEVE SER ACRESCIDO UM VALOR DE 30% NA ENTREGA */
+it('deve adicionar o valor de 30% no valor da entrega caso o estado seja RS', () =>{
+    const pedidoComEstadoRS = {
+        estado: 'RS',
+        itens: [
+            {nome: 'Sanduiche', valor: 500},
+            {nome: 'Entrega', valor: 100, entrega: true}
+        ]
+    }
+    const resultado = calcularValorPedido(pedidoComEstadoRS)
+
+    expect(resultado).toBe(630)
+})
+
+it('deve adicionar o valor de 30% no valor da entrega caso o estado seja SC', () =>{
+    const pedidoComEstadoSC = {
+        estado: 'SC',
+        itens: [
+            {nome: 'Sanduiche', valor: 500},
+            {nome: 'Entrega', valor: 100, entrega: true}
+        ]
+    }
+    const resultado = calcularValorPedido(pedidoComEstadoSC)
+
+    expect(resultado).toBe(630)
+})
+
+it('não deve adicionar o valor de 30% no valor da entrega caso o estado seja SP', () =>{
+    const pedidoComEstadoSP = {
+        estado: 'SP',
+        itens: [
+            {nome: 'Sanduiche', valor: 500},
+            {nome: 'Entrega', valor: 100, entrega: true}
+        ]
+    }
+    const resultado = calcularValorPedido(pedidoComEstadoSP)
+
+    expect(resultado).toBe(600)
+})
