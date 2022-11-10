@@ -134,6 +134,9 @@ main {
   justify-content: center;
 }
 
+.container .profile-data .repositories ul li{
+  padding-bottom: 20px;
+}
 .container .profile-data .repositories ul li a{
   padding: 20px;
   border: 1px solid grey;  
