@@ -20,7 +20,18 @@ const screen = {
                                             <ul>${repositoriesItens}</ul>
                                             </div>`
         }
-    },
+      
+        
+        let eventsItens = ''
+        user.events.forEach(event => eventsItens += `<li><a href="${event.repo.url}"target= "_blank">${event.repo.name} - ${event.payload.commits[0].message} </a></li>`)           
+            
+            if (user.events.length > 0) {
+                this.userProfile.innerHTML += `<div class="repositories section">
+                <h2>Eventos</h2>
+                <ul>${eventsItens}</ul>
+                </div>`
+            }
+        },
     renderNotFound(){
         this.userProfile.innerHTML = "<h3>Usuário não encontrado</h3>"
     }
