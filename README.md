@@ -23,3 +23,5 @@
 - [Desafio CSS Avançado Imagens](https://github.com/luispaulobrito/Curso-Dev-Quest/tree/main/10%20-%20desafio-css-avancado-imagens)
 - [Agência Landing Page](https://github.com/luispaulobrito/Curso-Dev-Quest/tree/main/16%20-%20landing-page-com-grid)
 - [Desafio Frontend Mentor](https://github.com/luispaulobrito/Curso-Dev-Quest/tree/main/17%20-%20desafio-frontend-mentor)
+- [Desafio Formulário com Validação](https://github.com/luispaulobrito/Curso-Dev-Quest/tree/main/22%20-%20desafio-js-intermediario-3)
+- [Projeto mundo real Fetch e Github](https://github.com/luispaulobrito/Curso-Dev-Quest/tree/main/25%20-%20projeto-fetch-github-api-main)
