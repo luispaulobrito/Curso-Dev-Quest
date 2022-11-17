@@ -1,23 +1,19 @@
 import Card from "../card/card";
 
+const cardTitles = ["Título card 1", "Título card 2", "Título card 3"];
+
 const Cards = () => {
   return (
     <div>
       <h2>Meus cards</h2>
 
       <div>
-        <Card>
-          <h3>Título card 1</h3>
-          <p>Esse é o texto do card</p>
-        </Card>
-        <Card>
-          <h3>Título card 2</h3>
-          <p>Esse é o texto do card</p>
-        </Card>
-        <Card>
-          <h3>Título card 3</h3>
-          <p>Esse é o texto do card</p>
-        </Card>
+        {cardTitles.map((cardTitle, index) => (
+            <Card key={index}>
+              <h3>{cardTitle}</h3>
+              <p>esse é um texto do card 1</p>
+            </Card>
+        ))}
       </div>
     </div>
   );
