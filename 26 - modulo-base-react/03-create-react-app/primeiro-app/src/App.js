@@ -5,9 +5,8 @@ import Card from "./components/card/card.js";
 function App() {
   return (
     <>
-      <Card title='Título card 1'/>
-      <Card title='Título card 2'/>
-      <Card title='Título card 3'/>
+      <Button label='Baixar CV'/>
+      <Button/>
     </>
   );
 }
