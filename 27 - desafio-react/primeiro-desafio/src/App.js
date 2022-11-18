@@ -4,7 +4,7 @@ import CollorizeAndUppercase from './components/collorizeAndUppercase/CollorizeA
 function App() {
   return (
     <>
-      <CollorizeAndUppercase title='Alterando a cor e colocando o componente com letras maiúsculas'/>
+      <CollorizeAndUppercase title='Alterando a cor e colocando o componente com letras maiúsculas' color={'blue'}/>
     </>
   );
 }
