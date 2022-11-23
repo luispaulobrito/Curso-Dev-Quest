@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 async function createDeck() {
   const response = await fetch(
@@ -19,38 +19,31 @@ const DeckOfCards = () => {
   const [deck, setDeck] = useState({
     cards: [],
   });
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const deckId = await createDeck();
+      const cards = await getCards(deckId);
+
+      setDeck({
+        cards: cards.cards,
+      });
+    };
+    fetchData();
+  },[]);
   return (
     <section>
       <ul>
         {deck.cards.map((card, index) => {
-          <li key={index}>
-            <img src={card.image} alt={card.value} />
-          </li>;
+          return (
+            <li key={index}>
+              <img src={card.image} alt={card.value} />
+            </li>
+          );
         })}
       </ul>
     </section>
   );
 };
-//     constructor(){
-//         super()
-//         this.state = {
-//             cards: []
-//         }
-//     }
-
-//     async componentDidMount(){
-//         const deckId = await createDeck()
-//         const cards = await getCards(deckId)
-//         this.setState({
-//             cards: cards.cards
-//         })
-//     }
-
-//     render(){
-//         return (
-
-//         )
-//     }
-// }
 
 export default DeckOfCards;
