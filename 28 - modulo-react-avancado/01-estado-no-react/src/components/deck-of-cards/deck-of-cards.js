@@ -24,6 +24,7 @@ const CardsList = (props) => {
           return (
             <li key={index}>
               <img src={card.image} alt={card.value} />
+              <p>{card.value} {card.suit}</p>
             </li>
           );
         })}
