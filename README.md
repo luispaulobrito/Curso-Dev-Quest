@@ -2,7 +2,7 @@
 <img src="https://github.com/luispaulobrito/Curso-Dev-Quest/blob/main/assets/devquestlogo.jpg" width="175px"> 
 </div>
 <h1 align="center">Bootcamp Dev Quest</h1>
-<h4 align="center">O Bootcamp Dev Quest é um programa de estudos em desenvolvimento e tecnologias Back-End. O programa apresenta cursos, desafios práticos e mentorias em tecnologias essenciais para  Back-End.</h4>
+<h4 align="center">O Bootcamp Dev Quest é um programa de estudos em desenvolvimento e tecnologias Front-End. O programa apresenta cursos, desafios práticos e mentorias em tecnologias essenciais para  Front-End.</h4>
 
 <h3 align="center">
 ⚙️ Tecnologias utilizadas
